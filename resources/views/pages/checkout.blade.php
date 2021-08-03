@@ -66,7 +66,7 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <img src="frontend/images/avatar-1.png" height="60px">
+                                            <img src="{{ url('frontend/images/avatar-1.png') }}" height="60px">
                                         </td>
                                         <td class="align-middle">
                                             Angga Risky
@@ -82,13 +82,13 @@
                                         </td>
                                         <td class="align-middle">
                                             <a href="#">
-                                                <img src="frontend/images/ic-delete.png" alt="">
+                                                <img src="{{ url('frontend/images/ic-delete.png') }}" alt="">
                                             </a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <img src="frontend/images/avatar-2.png" height="60px">
+                                            <img src="{{ url('frontend/images/avatar-2.png') }}" height="60px">
                                         </td>
                                         <td class="align-middle ">
                                             Ari Sutarman
@@ -104,7 +104,7 @@
                                         </td>
                                         <td class="align-middle ">
                                             <a href="# ">
-                                                <img src="frontend/images/ic-delete.png " alt=" ">
+                                                <img src="{{ url('frontend/images/ic-delete.png') }}" alt=" ">
                                             </a>
                                         </td>
                                     </tr>
@@ -176,7 +176,7 @@
                         <p class="payment-instructions">Please complete payment before you continue the wonderful trip</p>
                         <div class="bank">
                             <div class="bank-item pb-3">
-                                <img src="frontend/images/ic_bank.png" alt="" class="bank-image">
+                                <img src="{{ url('frontend/images/ic_bank.png') }}" alt="" class="bank-image">
                                 <div class="description">
                                     <h3>PT NOMADS ID</h3>
                                     <p>
@@ -187,7 +187,7 @@
                                 <div class="clearfix"></div>
                             </div>
                             <div class="bank-item pb-3">
-                                <img src="frontend/images/ic_bank.png" alt="" class="bank-image">
+                                <img src="{{ url('frontend/images/ic_bank.png') }}" alt="" class="bank-image">
                                 <div class="description">
                                     <h3>PT NOMADS ID</h3>
                                     <p>
@@ -200,12 +200,12 @@
                         </div>
                     </div>
                     <div class="join-container ">
-                        <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2 ">
+                        <a href="{{ route('checkout-success') }}" class="btn btn-block btn-join-now mt-3 py-2 ">
                             I Have Made Payment
                         </a>
                     </div>
                     <div class="text-center mt-3">
-                        <a href="details.html" class="text-muted">Cancel Booking</a>
+                        <a href="{{ route('detail') }}" class="text-muted">Cancel Booking</a>
                     </div>
                 </div>
             </div>

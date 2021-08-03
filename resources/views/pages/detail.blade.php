@@ -38,24 +38,24 @@
                         </p>
                         <div class="gallery">
                             <div class="xzoom-container">
-                                <img src="frontend/images/details.jpg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom" id="xzoom-default" xoriginal="{{ url('frontend/images/details.jpg') }}">
                             </div>
                         </div>
                         <div class="xzoom-thumbs">
                             <a href="">
-                                <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom-gallery" width="128" xpreview="{{ url('frontend/images/details.jpg') }}">
                             </a>
                             <a href="">
-                                <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom-gallery" width="128" xpreview="{{ url('frontend/images/details.jpg') }}">
                             </a>
                             <a href="">
-                                <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom-gallery" width="128" xpreview="{{ url('frontend/images/details.jpg') }}">
                             </a>
                             <a href="">
-                                <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom-gallery" width="128" xpreview="{{ url('frontend/images/details.jpg') }}">
                             </a>
                             <a href="">
-                                <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                <img src="{{ url('frontend/images/details.jpg') }}" class="xzoom-gallery" width="128" xpreview="{{ url('frontend/images/details.jpg') }}">
                             </a>
                         </div>
                         <h2>Tentang Wisata</h2>
@@ -65,21 +65,21 @@
 
                         <div class="features row">
                             <div class="col-md-4">
-                                <img src="frontend/images/ic_event.png" alt="" class="features-image">
+                                <img src="{{ url('frontend/images/ic_event.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Featured Event</h3>
                                     <p>Tari Kecak</p>
                                 </div>
                             </div>
                             <div class="col-md-4 border-left">
-                                <img src="frontend/images/ic_bahasa.png" alt="" class="features-image">
+                                <img src="{{ url('frontend/images/ic_bahasa.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Language</h3>
                                     <p>Bahasa Indonesia</p>
                                 </div>
                             </div>
                             <div class="col-md-4 border-left">
-                                <img src="frontend/images/ic_food.png" alt="" class="features-image">
+                                <img src="{{ url('frontend/images/ic_food.png') }}" alt="" class="features-image">
                                 <div class="description">
                                     <h3>Foods</h3>
                                     <p>Local Foods</p>
@@ -92,11 +92,11 @@
                     <div class="card card-details card-right">
                         <h2>Members Are Going</h2>
                         <div class="members my-2">
-                            <img src="frontend/images/member-1.png" alt="">
-                            <img src="frontend/images/member-2.png" alt="">
-                            <img src="frontend/images/member-3.png" alt="">
-                            <img src="frontend/images/member-4.png" alt="">
-                            <img src="frontend/images/member-5.png" alt="">
+                            <img src="{{ url('frontend/images/member-1.png') }}" alt="">
+                            <img src="{{ url('frontend/images/member-2.png') }}" alt="">
+                            <img src="{{ url('frontend/images/member-3.png') }}" alt="">
+                            <img src="{{ url('frontend/images/member-4.png') }}" alt="">
+                            <img src="{{ url('frontend/images/member-5.png') }}" alt="">
                         </div>
                         <hr>
                         <h2>Trip Informations</h2>
@@ -124,7 +124,7 @@
                         </table>
                     </div>
                     <div class="join-container">
-                        <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2">
+                        <a href="{{ route('checkout') }}" class="btn btn-block btn-join-now mt-3 py-2">
                             Join Now
                         </a>
                     </div>
